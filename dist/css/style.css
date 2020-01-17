@@ -5,4 +5,39 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.Header-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 110vh;
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/25/12/28/dames-point-bridge-1768738__480.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Header-Text {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: Voltaire;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 90px;
+  text-align: center;
+  color: #f1ee1a;
+}
+
+.Header-Text:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-filter: hue-rotate(320deg);
+          filter: hue-rotate(320deg);
+}
 /*# sourceMappingURL=style.css.map */
