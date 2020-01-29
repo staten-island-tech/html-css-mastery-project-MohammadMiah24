@@ -17,7 +17,7 @@ html {
   background-position: center;
 }
 
-.Header-Text{
+.Header-Text {
   transition: all 0.3s;
 
   font-family: Voltaire;
@@ -35,8 +35,10 @@ html {
   filter: hue-rotate(320deg);
 }
 
-.Weather{
+.Weather {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   height: 100vh;
 
   background-image: url(https://cdn.pixabay.com/photo/2015/08/11/14/23/miami-884626__480.jpg);
@@ -45,8 +47,22 @@ html {
   background-position: center;
 }
 
-.Weather-title{
+.Weather-title {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+
+  font-family: Voltaire;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 90px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.Weather-img{
+  display: flex;
+  justify-content: flex-start;
 }
