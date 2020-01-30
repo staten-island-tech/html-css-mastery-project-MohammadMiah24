@@ -44,15 +44,6 @@ html {
 }
 
 .Weather {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   height: 100vh;
   background-image: url(https://cdn.pixabay.com/photo/2015/08/11/14/23/miami-884626__480.jpg);
   background-repeat: no-repeat;
@@ -64,6 +55,14 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   font-family: Voltaire;
   font-style: normal;
   font-weight: normal;
@@ -77,12 +76,28 @@ html {
   color: #000000;
 }
 
-.Weather-img {
+.Weather-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: Voltaire;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #000000;
+  -webkit-text-emphasis-color: #21c9f3;
+          text-emphasis-color: #21c9f3;
 }
 /*# sourceMappingURL=style.css.map */

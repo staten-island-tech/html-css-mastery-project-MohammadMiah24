@@ -36,11 +36,7 @@ html {
 }
 
 .Weather {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   height: 100vh;
-
   background-image: url(https://cdn.pixabay.com/photo/2015/08/11/14/23/miami-884626__480.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,6 +45,9 @@ html {
 
 .Weather-title {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 
   font-family: Voltaire;
   font-style: normal;
@@ -58,11 +57,22 @@ html {
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #000000;
 }
 
-.Weather-img{
+.Weather-text {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: flex-end;
+
+  font-family: Voltaire;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  text-emphasis-color: rgb(33, 201, 243);
 }
