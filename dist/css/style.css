@@ -29,11 +29,11 @@ html {
   font-family: Voltaire;
   font-style: normal;
   font-weight: normal;
-  font-size: 72px;
+  font-size: 172px;
   line-height: 90px;
   text-align: center;
   color: #f1ee1a;
-  width: 50rem;
+  width: 300rem;
 }
 
 .Header-Text:hover {
@@ -41,6 +41,10 @@ html {
           transform: scale(1.2);
   -webkit-filter: hue-rotate(320deg);
           filter: hue-rotate(320deg);
+}
+
+.Florida-gif {
+  height: 60rem;
 }
 
 .Weather {
@@ -83,21 +87,37 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100rem;
   font-family: Voltaire;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
   line-height: 60px;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
   color: #000000;
   -webkit-text-emphasis-color: #21c9f3;
           text-emphasis-color: #21c9f3;
+}
+
+.Weather-pic {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40rem;
+}
+
+.Weather-pic:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=style.css.map */

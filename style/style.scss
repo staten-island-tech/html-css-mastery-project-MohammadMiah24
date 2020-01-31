@@ -23,16 +23,20 @@ html {
   font-family: Voltaire;
   font-style: normal;
   font-weight: normal;
-  font-size: 72px;
+  font-size: 172px;
   line-height: 90px;
   text-align: center;
   color: #f1ee1a;
-  width: 50rem;
+  width: 300rem;
 }
 
 .Header-Text:hover {
   transform: scale(1.2);
   filter: hue-rotate(320deg);
+}
+
+.Florida-gif{
+  height: 60rem;
 }
 
 .Weather {
@@ -63,7 +67,8 @@ html {
 .Weather-text {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  width: 100rem;
 
   font-family: Voltaire;
   font-style: normal;
@@ -75,4 +80,16 @@ html {
   text-align: center;
   color: #000000;
   text-emphasis-color: rgb(33, 201, 243);
+}
+
+.Weather-pic{
+  transition: all 0.3s;
+
+  display: flex;
+  justify-content: center;
+  height: 40rem;
+}
+
+.Weather-pic:hover {
+  transform: scale(1.1);
 }
