@@ -23,7 +23,7 @@ html {
   font-family: Voltaire;
   font-style: normal;
   font-weight: normal;
-  font-size: 172px;
+  font-size: 72px;
   line-height: 90px;
   text-align: center;
   color: #f1ee1a;
@@ -36,7 +36,7 @@ html {
 }
 
 .Florida-gif{
-  height: 60rem;
+  height: 20rem;
 }
 
 .Weather {
@@ -68,9 +68,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100rem;
 
   font-family: Voltaire;
+  text-decoration: solid;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -82,14 +82,23 @@ html {
   text-emphasis-color: rgb(33, 201, 243);
 }
 
-.Weather-pic{
+.Weather-gallery{
   transition: all 0.3s;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   height: 40rem;
 }
 
-.Weather-pic:hover {
-  transform: scale(1.1);
+.Weather-pic{
+  width: 50rem;
+  border: 4mm ridge rgba(50, 138, 220, 0.6);
+}
+
+.Weather-pic2{
+  border: 4mm ridge rgba(50, 138, 220, 0.6);
+}
+
+.Weather-gallery:hover {
+  filter: hue-rotate(120058deg);
 }
