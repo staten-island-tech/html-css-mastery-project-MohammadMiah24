@@ -106,8 +106,8 @@ html {
 }
 
 .Weather-gallery {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 3s;
+  transition: all 3s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,8 +125,68 @@ html {
   border: 4mm ridge rgba(50, 138, 220, 0.6);
 }
 
+.Weather-hover {
+  border: 4mm ridge rgba(50, 138, 220, 0.6);
+}
+
 .Weather-gallery:hover {
-  -webkit-filter: hue-rotate(120058deg);
-          filter: hue-rotate(120058deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.Cities {
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/05/19/24/miami-1238397__480.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Cities-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Voltaire;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 90px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Cities-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Miami {
+  height: 40rem;
+  border-radius: 30rem;
+}
+
+.Tampa {
+  height: 40rem;
+  border-radius: 30rem;
+}
+
+.Miami:hover {
+  background-image: url(https://i.ytimg.com/vi/HMmQu4zn1KQ/maxresdefault.jpg);
+}
+
+.Tampa:hover {
+  background-image: url(https://tampavirtualcenter.com/wp-content/uploads/2019/01/mobile-header-tvc.jpg);
 }
 /*# sourceMappingURL=style.css.map */
