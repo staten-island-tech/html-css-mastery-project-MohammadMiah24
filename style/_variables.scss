@@ -1,30 +1,27 @@
-$color: (
-    primary: #fff;
+$colors: (
+  primary: #fff,
 );
-
-
+$phone:600px
+$tablet: 900px;
+$laptop: 1100px;
 $desktop: 1100px;
-$laptop: 900px;
-$tablet: 600px;
-
+ 
 @function color($color-name) {
-    @return map-get($colors , $color-name);
-}
-
-@mixin desktop {
-    @media (min-width: #{$desktop}) {
-        @content;;
-    }
-}
-
-@mixin laptop {
-    @media (min-width: #{$laptop}) {
-        @content;;
-    }
+  @return map-get($colors, $color-name);
 }
 
 @mixin tablet {
-    @media (min-width: #{$tablet}) {
-        @content;;
-    }
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media (min-width: #{$laptop}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
 }
