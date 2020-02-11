@@ -1,3 +1,88 @@
+.user-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 1280px) {
+  .user-gallery {
+    height: 90vh;
+  }
+}
+
+.user-gallery-header {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .user-gallery-header {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .user-gallery-header {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 2800px) {
+  .user-gallery-header {
+    font-size: 5rem;
+  }
+}
+
+.user-gallery-gallery {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 1280px) {
+  .user-gallery-gallery {
+    width: 90%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.user-gallery-gallery .user-gallery-image {
+  width: 90%;
+  padding: 1rem;
+}
+
+@media (min-width: 1280px) {
+  .user-gallery-gallery .user-gallery-image {
+    height: 30rem;
+    width: auto;
+  }
+}
+
 html {
   padding: 0;
   margin: 0;
@@ -34,6 +119,12 @@ html {
   text-align: center;
   color: #f1ee1a;
   width: 300rem;
+}
+
+@media (min-width: 375px) {
+  .Header-Text {
+    font-size: 8rem;
+  }
 }
 
 .Header-Text:hover {
@@ -80,6 +171,12 @@ html {
   color: #000000;
 }
 
+@media (min-width: 375px) {
+  .Weather-title {
+    font-size: 7rem;
+  }
+}
+
 .Weather-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,6 +202,12 @@ html {
           text-emphasis-color: #21c9f3;
 }
 
+@media (min-width: 375px) {
+  .Weather-text {
+    font-size: 3rem;
+  }
+}
+
 .Weather-gallery {
   -webkit-transition: all 3s;
   transition: all 3s;
@@ -114,6 +217,12 @@ html {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 30rem;
+}
+
+@media (min-width: 375px) {
+  .Weather-gallery {
+    height: 16rem;
+  }
 }
 
 .Weather-pic {
@@ -172,6 +281,24 @@ html {
           align-items: center;
 }
 
+@media (min-width: 768px) {
+  .Cities-gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 375px) {
+  .Cities-gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .Miami {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -179,11 +306,35 @@ html {
   border-radius: 30rem;
 }
 
+@media (min-width: 768px) {
+  .Miami {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 375px) {
+  .Miami {
+    height: 18rem;
+  }
+}
+
 .Tampa {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   height: 40rem;
   border-radius: 30rem;
+}
+
+@media (min-width: 768px) {
+  .Tampa {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 375px) {
+  .Tampa {
+    height: 18rem;
+  }
 }
 
 .Miami:hover {

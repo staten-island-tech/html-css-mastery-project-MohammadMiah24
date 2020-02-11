@@ -1,10 +1,11 @@
 $colors: (
   primary: #fff,
 );
-$phone:600px
-$tablet: 900px;
-$laptop: 1100px;
-$desktop: 1100px;
+
+$phone: 375px;
+$tablet: 768px;
+$laptop: 1280px;
+$desktop: 2800px;
  
 @function color($color-name) {
   @return map-get($colors, $color-name);
@@ -22,6 +23,12 @@ $desktop: 1100px;
 }
 @mixin desktop {
   @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (min-width: #{$phone}) {
     @content;
   }
 }
