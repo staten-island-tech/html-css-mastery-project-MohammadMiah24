@@ -2,10 +2,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -38,7 +34,7 @@
   }
 }
 
-@media (min-width: 2800px) {
+@media (min-width: 2000px) {
   .user-gallery-header {
     font-size: 5rem;
   }
@@ -121,12 +117,6 @@ html {
   width: 300rem;
 }
 
-@media (min-width: 375px) {
-  .Header-Text {
-    font-size: 8rem;
-  }
-}
-
 .Header-Text:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -173,7 +163,8 @@ html {
 
 @media (min-width: 375px) {
   .Weather-title {
-    font-size: 7rem;
+    font-size: 6rem;
+    height: 35rem;
   }
 }
 
@@ -204,7 +195,8 @@ html {
 
 @media (min-width: 375px) {
   .Weather-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    height: 15rem;
   }
 }
 
@@ -214,15 +206,13 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   height: 30rem;
-}
-
-@media (min-width: 375px) {
-  .Weather-gallery {
-    height: 16rem;
-  }
 }
 
 .Weather-pic {
@@ -236,6 +226,12 @@ html {
 
 .Weather-hover {
   border: 4mm ridge rgba(50, 138, 220, 0.6);
+}
+
+@media (min-width: 375px) {
+  .Weather-hover {
+    height: 16rem;
+  }
 }
 
 .Weather-gallery:hover {
@@ -281,15 +277,6 @@ html {
           align-items: center;
 }
 
-@media (min-width: 768px) {
-  .Cities-gallery {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 @media (min-width: 375px) {
   .Cities-gallery {
     -webkit-box-orient: vertical;
@@ -306,15 +293,9 @@ html {
   border-radius: 30rem;
 }
 
-@media (min-width: 768px) {
-  .Miami {
-    height: 30rem;
-  }
-}
-
 @media (min-width: 375px) {
   .Miami {
-    height: 18rem;
+    height: 20rem;
   }
 }
 
@@ -325,15 +306,9 @@ html {
   border-radius: 30rem;
 }
 
-@media (min-width: 768px) {
-  .Tampa {
-    height: 30rem;
-  }
-}
-
 @media (min-width: 375px) {
   .Tampa {
-    height: 18rem;
+    height: 20rem;
   }
 }
 
@@ -375,6 +350,13 @@ html {
   color: #ffffff;
 }
 
+@media (min-width: 375px) {
+  .Review-Header {
+    font-size: 3rem;
+    height: 16rem;
+  }
+}
+
 .Review-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -395,6 +377,12 @@ html {
   color: #ffffff;
 }
 
+@media (min-width: 375px) {
+  .Review-text {
+    font-size: 3rem;
+  }
+}
+
 .Review-gallery {
   height: 50rem;
   display: -webkit-box;
@@ -407,9 +395,24 @@ html {
           align-items: center;
 }
 
+@media (min-width: 375px) {
+  .Review-gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .R-1 {
   height: 30rem;
   border-radius: 12rem;
+}
+
+@media (min-width: 375px) {
+  .R-1 {
+    height: 15rem;
+  }
 }
 
 .R-2 {
@@ -417,9 +420,21 @@ html {
   border-radius: 12rem;
 }
 
+@media (min-width: 375px) {
+  .R-2 {
+    height: 15rem;
+  }
+}
+
 .R-3 {
   height: 30rem;
   border-radius: 12rem;
+}
+
+@media (min-width: 375px) {
+  .R-3 {
+    height: 15rem;
+  }
 }
 
 .Visit {
@@ -450,6 +465,13 @@ html {
   color: #000000;
 }
 
+@media (min-width: 375px) {
+  .Visit-header {
+    font-size: 5rem;
+    height: 16rem;
+  }
+}
+
 .Visit-row1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -469,6 +491,18 @@ html {
           align-items: center;
   text-align: center;
   color: #000000;
+}
+
+@media (min-width: 375px) {
+  .Visit-row1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .Visit-row2 {

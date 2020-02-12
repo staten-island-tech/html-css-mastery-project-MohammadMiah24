@@ -31,10 +31,6 @@ html {
   text-align: center;
   color: #f1ee1a;
   width: 300rem;
-
-  @include phone{
-    font-size: 8rem;
-  }
 }
 
 .Header-Text:hover {
@@ -71,7 +67,8 @@ html {
   color: #000000;
   
   @include phone{
-    font-size: 7rem;
+    font-size: 6rem;
+    height: 35rem;
   }
 }
 
@@ -93,7 +90,8 @@ html {
   text-emphasis-color: rgb(33, 201, 243);
 
   @include phone{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    height: 15rem;
   }
 }
 
@@ -102,12 +100,9 @@ html {
   transition: all 3s;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: flex-end;
   height: 30rem;
-
-  @include phone{
-    height: 16rem;
-  }
 }
 
 .Weather-pic {
@@ -121,6 +116,10 @@ html {
 
 .Weather-hover {
   border: 4mm ridge rgba(50, 138, 220, 0.6);
+
+  @include phone{
+    height: 16rem;
+  }
 }
 
 .Weather-gallery:hover {
@@ -155,9 +154,6 @@ html {
   justify-content: space-around;
   align-items: center;
 
-  @include tablet{
-    flex-direction: column;
-  }
   @include phone{
     flex-direction: column;
   }
@@ -168,11 +164,8 @@ html {
   height: 40rem;
   border-radius: 30rem;
 
-  @include tablet{
-    height: 30rem;
-  }
   @include phone{
-    height: 18rem;
+    height: 20rem;
   }
 }
 
@@ -181,12 +174,7 @@ html {
   height: 40rem;
   border-radius: 30rem;
 
-  @include tablet{
-    height: 30rem;
-  }
-  @include phone{
-    height: 18rem;
-  }
+  @include phone{height: 20rem;}
 }
 
 .Miami:hover {
@@ -219,6 +207,11 @@ html {
   text-align: center;
 
   color: #ffffff;
+
+  @include phone{
+    font-size: 3rem;
+    height: 16rem;
+  }
 }
 
 .Review-text {
@@ -235,6 +228,10 @@ html {
   text-align: center;
 
   color: #ffffff;
+
+  @include phone{
+    font-size: 3rem;
+  }
 }
 
 .Review-gallery {
@@ -242,21 +239,37 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  @include phone{
+    flex-direction: column;
+  }
 }
 
 .R-1 {
   height: 30rem;
   border-radius: 12rem;
+
+  @include phone{
+    height: 15rem;
+  }
 }
 
 .R-2 {
   height: 30rem;
   border-radius: 12rem;
+
+  @include phone{
+    height: 15rem;
+  }
 }
 
 .R-3 {
   height: 30rem;
   border-radius: 12rem;
+
+  @include phone{
+    height: 15rem;
+  }
 }
 
 .Visit {
@@ -281,6 +294,11 @@ html {
   text-align: center;
 
   color: #000000;
+
+  @include phone{
+    font-size: 5rem;
+    height: 16rem;
+  }
 }
 
 .Visit-row1 {
@@ -298,6 +316,11 @@ html {
   text-align: center;
 
   color: #000000;
+
+  @include phone{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .Visit-row2 {
