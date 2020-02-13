@@ -200,6 +200,12 @@ html {
   }
 }
 
+@media (min-width: 768px) {
+  .Weather-text {
+    font-size: 4rem;
+  }
+}
+
 .Weather-gallery {
   -webkit-transition: all 3s;
   transition: all 3s;
@@ -231,6 +237,12 @@ html {
 @media (min-width: 375px) {
   .Weather-hover {
     height: 16rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .Weather-hover {
+    height: 20rem;
   }
 }
 
@@ -299,6 +311,12 @@ html {
   }
 }
 
+@media (min-width: 768px) {
+  .Miami {
+    height: 30rem;
+  }
+}
+
 .Tampa {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -309,6 +327,12 @@ html {
 @media (min-width: 375px) {
   .Tampa {
     height: 20rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .Tampa {
+    height: 30rem;
   }
 }
 
@@ -415,6 +439,12 @@ html {
   }
 }
 
+@media (min-width: 768px) {
+  .R-1 {
+    height: 18rem;
+  }
+}
+
 .R-2 {
   height: 30rem;
   border-radius: 12rem;
@@ -426,6 +456,12 @@ html {
   }
 }
 
+@media (min-width: 768px) {
+  .R-2 {
+    height: 18rem;
+  }
+}
+
 .R-3 {
   height: 30rem;
   border-radius: 12rem;
@@ -434,6 +470,12 @@ html {
 @media (min-width: 375px) {
   .R-3 {
     height: 15rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .R-3 {
+    height: 18rem;
   }
 }
 
@@ -469,6 +511,12 @@ html {
   .Visit-header {
     font-size: 5rem;
     height: 16rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .Visit-header {
+    font-size: 8rem;
   }
 }
 
@@ -542,6 +590,12 @@ html {
           box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
+@media (min-width: 768px) {
+  .button1 {
+    height: 20rem;
+  }
+}
+
 .button2 {
   border: 0;
   line-height: 6;
@@ -555,6 +609,12 @@ html {
   text-decoration: none;
   -webkit-box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
           box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 768px) {
+  .button2 {
+    height: 20rem;
+  }
 }
 
 .button3 {
@@ -576,6 +636,12 @@ html {
   text-decoration: none;
   -webkit-box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
           box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 768px) {
+  .button3 {
+    height: 20rem;
+  }
 }
 
 .button1:hover {

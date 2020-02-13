@@ -65,8 +65,8 @@ html {
   align-items: center;
   text-align: center;
   color: #000000;
-  
-  @include phone{
+
+  @include phone {
     font-size: 6rem;
     height: 35rem;
   }
@@ -89,12 +89,14 @@ html {
   color: #000000;
   text-emphasis-color: rgb(33, 201, 243);
 
-  @include phone{
+  @include phone {
     font-size: 2.5rem;
     height: 15rem;
   }
+  @include tablet {
+    font-size: 4rem;
+  }
 }
-
 
 .Weather-gallery {
   transition: all 3s;
@@ -117,8 +119,11 @@ html {
 .Weather-hover {
   border: 4mm ridge rgba(50, 138, 220, 0.6);
 
-  @include phone{
+  @include phone {
     height: 16rem;
+  }
+  @include tablet {
+    height: 20rem;
   }
 }
 
@@ -154,7 +159,7 @@ html {
   justify-content: space-around;
   align-items: center;
 
-  @include phone{
+  @include phone {
     flex-direction: column;
   }
 }
@@ -164,8 +169,11 @@ html {
   height: 40rem;
   border-radius: 30rem;
 
-  @include phone{
+  @include phone {
     height: 20rem;
+  }
+  @include tablet {
+    height: 30rem;
   }
 }
 
@@ -174,7 +182,12 @@ html {
   height: 40rem;
   border-radius: 30rem;
 
-  @include phone{height: 20rem;}
+  @include phone {
+    height: 20rem;
+  }
+  @include tablet {
+    height: 30rem;
+  }
 }
 
 .Miami:hover {
@@ -208,7 +221,7 @@ html {
 
   color: #ffffff;
 
-  @include phone{
+  @include phone {
     font-size: 3rem;
     height: 16rem;
   }
@@ -229,7 +242,7 @@ html {
 
   color: #ffffff;
 
-  @include phone{
+  @include phone {
     font-size: 3rem;
   }
 }
@@ -240,7 +253,7 @@ html {
   justify-content: space-around;
   align-items: center;
 
-  @include phone{
+  @include phone {
     flex-direction: column;
   }
 }
@@ -249,8 +262,11 @@ html {
   height: 30rem;
   border-radius: 12rem;
 
-  @include phone{
+  @include phone {
     height: 15rem;
+  }
+  @include tablet{
+    height: 18rem;
   }
 }
 
@@ -258,8 +274,11 @@ html {
   height: 30rem;
   border-radius: 12rem;
 
-  @include phone{
+  @include phone {
     height: 15rem;
+  }
+  @include tablet{
+    height: 18rem;
   }
 }
 
@@ -267,8 +286,11 @@ html {
   height: 30rem;
   border-radius: 12rem;
 
-  @include phone{
+  @include phone {
     height: 15rem;
+  }
+  @include tablet{
+    height: 18rem;
   }
 }
 
@@ -295,9 +317,12 @@ html {
 
   color: #000000;
 
-  @include phone{
+  @include phone {
     font-size: 5rem;
     height: 16rem;
+  }
+  @include tablet{
+    font-size: 8rem;
   }
 }
 
@@ -317,7 +342,7 @@ html {
 
   color: #000000;
 
-  @include phone{
+  @include phone {
     display: flex;
     flex-direction: column;
   }
@@ -340,7 +365,7 @@ html {
   color: #000000;
 }
 
-.button1{
+.button1 {
   border: 0;
   line-height: 6;
   padding: 0 50px;
@@ -353,9 +378,12 @@ html {
   text-decoration: none;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    @include tablet{
+      height: 20rem;
+    }
 }
 
-.button2{
+.button2 {
   border: 0;
   line-height: 6;
   padding: 0 50px;
@@ -368,9 +396,12 @@ html {
   text-decoration: none;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    @include tablet{
+      height: 20rem;
+    }
 }
 
-.button3{
+.button3 {
   display: flex;
   justify-content: center;
   border: 0;
@@ -385,16 +416,19 @@ html {
   text-decoration: none;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    @include tablet{
+      height: 20rem;
+    }
 }
 
-.button1:hover{
+.button1:hover {
   transform: scale(1.3);
 }
 
-.button2:hover{
+.button2:hover {
   transform: scale(1.3);
 }
 
-.button3:hover{
+.button3:hover {
   transform: scale(1.3);
 }
