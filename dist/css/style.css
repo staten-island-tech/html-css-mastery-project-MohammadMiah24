@@ -117,6 +117,12 @@ html {
   width: 300rem;
 }
 
+@media (min-width: 2000px) {
+  .Header-Text {
+    font-size: 15rem;
+  }
+}
+
 .Header-Text:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -126,6 +132,12 @@ html {
 
 .Florida-gif {
   height: 20rem;
+}
+
+@media (min-width: 2000px) {
+  .Florida-gif {
+    height: 40rem;
+  }
 }
 
 .Weather {
@@ -168,6 +180,13 @@ html {
   }
 }
 
+@media (min-width: 2000px) {
+  .Weather-title {
+    height: 70rem;
+    font-size: 15rem;
+  }
+}
+
 .Weather-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,6 +222,13 @@ html {
 @media (min-width: 768px) {
   .Weather-text {
     font-size: 4rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .Weather-text {
+    line-height: 10rem;
+    font-size: 10rem;
   }
 }
 
@@ -243,6 +269,12 @@ html {
 @media (min-width: 768px) {
   .Weather-hover {
     height: 20rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .Weather-hover {
+    height: 50rem;
   }
 }
 
@@ -588,6 +620,10 @@ html {
   text-decoration: none;
   -webkit-box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
           box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 @media (min-width: 768px) {

@@ -31,6 +31,10 @@ html {
   text-align: center;
   color: #f1ee1a;
   width: 300rem;
+
+  @include desktop{
+    font-size: 15rem;
+  }
 }
 
 .Header-Text:hover {
@@ -40,6 +44,9 @@ html {
 
 .Florida-gif {
   height: 20rem;
+  @include desktop{
+    height: 40rem;
+  }
 }
 
 .Weather {
@@ -70,6 +77,10 @@ html {
     font-size: 6rem;
     height: 35rem;
   }
+  @include desktop{
+    height: 70rem;
+    font-size: 15rem;
+  }
 }
 
 .Weather-text {
@@ -95,6 +106,10 @@ html {
   }
   @include tablet {
     font-size: 4rem;
+  }
+  @include desktop{
+    line-height: 10rem;
+    font-size: 10rem;
   }
 }
 
@@ -124,6 +139,9 @@ html {
   }
   @include tablet {
     height: 20rem;
+  }
+  @include desktop{
+    height: 50rem;
   }
 }
 
@@ -378,6 +396,8 @@ html {
   text-decoration: none;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  align-items: center;
+  text-align: center;
     @include tablet{
       height: 20rem;
     }
