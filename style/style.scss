@@ -67,15 +67,15 @@ html {
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
-  line-height: 90px;
+  line-height: 70px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #000000;
 
   @include phone {
-    font-size: 6rem;
-    height: 35rem;
+    font-size: 5rem;
+    height: 25rem;
   }
   @include desktop{
     height: 70rem;
@@ -93,7 +93,7 @@ html {
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-  line-height: 60px;
+  line-height: 40px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -119,16 +119,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 30rem;
-}
-
-.Weather-pic {
-  width: 50rem;
-  border: 4mm ridge rgba(50, 138, 220, 0.6);
-}
-
-.Weather-pic2 {
-  border: 4mm ridge rgba(50, 138, 220, 0.6);
+  height: 90rem;
+  @include phone{
+    height: 30rem;
+  }
 }
 
 .Weather-hover {
@@ -170,6 +164,10 @@ html {
   text-align: center;
 
   color: #ffffff;
+
+  @include desktop{
+    font-size: 17rem;
+  }
 }
 
 .Cities-gallery {
@@ -179,6 +177,9 @@ html {
 
   @include phone {
     flex-direction: column;
+  }
+  @include desktop{
+    flex-direction: row;
   }
 }
 
@@ -193,6 +194,9 @@ html {
   @include tablet {
     height: 30rem;
   }
+  @include desktop{
+    height: 70rem;
+  }
 }
 
 .Tampa {
@@ -205,6 +209,9 @@ html {
   }
   @include tablet {
     height: 30rem;
+  }
+  @include desktop{
+    height: 70rem;
   }
 }
 
@@ -232,7 +239,7 @@ html {
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
-  line-height: 90px;
+  line-height: 70px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -242,6 +249,14 @@ html {
   @include phone {
     font-size: 3rem;
     height: 16rem;
+  }
+  @include tablet{
+    font-size: 6rem;
+    height: 20rem;
+  }
+  @include desktop{
+    font-size: 12rem;
+    height: 30rem;
   }
 }
 
@@ -263,6 +278,9 @@ html {
   @include phone {
     font-size: 3rem;
   }
+  @include desktop{
+    font-size: 7rem;
+  }
 }
 
 .Review-gallery {
@@ -273,6 +291,10 @@ html {
 
   @include phone {
     flex-direction: column;
+  }
+  @include desktop{
+    height: 100rem;
+    flex-direction: row;
   }
 }
 
@@ -286,6 +308,9 @@ html {
   @include tablet{
     height: 18rem;
   }
+  @include desktop{
+    height: 50rem;
+  }
 }
 
 .R-2 {
@@ -298,6 +323,9 @@ html {
   @include tablet{
     height: 18rem;
   }
+  @include desktop{
+    height: 50rem;
+  }
 }
 
 .R-3 {
@@ -309,6 +337,9 @@ html {
   }
   @include tablet{
     height: 18rem;
+  }
+  @include desktop{
+    height: 50rem;
   }
 }
 
@@ -342,6 +373,10 @@ html {
   @include tablet{
     font-size: 8rem;
   }
+  @include desktop{
+    font-size: 20rem;
+    height: 70rem;
+  }
 }
 
 .Visit-row1 {
@@ -363,6 +398,9 @@ html {
   @include phone {
     display: flex;
     flex-direction: column;
+  }
+  @include desktop{
+    flex-direction: row;
   }
 }
 
@@ -400,6 +438,12 @@ html {
   text-align: center;
     @include tablet{
       height: 20rem;
+      font-size: 3rem;
+    }
+    @include desktop{
+      height: 30rem;
+      width: 30rem;
+      font-size: 5rem;
     }
 }
 
@@ -418,6 +462,12 @@ html {
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
     @include tablet{
       height: 20rem;
+      font-size: 3rem;
+    }
+    @include desktop{
+      height: 30rem;
+      width: 30rem;
+      font-size: 5rem;
     }
 }
 
@@ -438,6 +488,12 @@ html {
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
     @include tablet{
       height: 20rem;
+      font-size: 3rem;
+    }
+    @include desktop{
+      height: 30rem;
+      width: 30rem;
+      font-size: 5rem;
     }
 }
 
