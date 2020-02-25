@@ -253,6 +253,12 @@ html {
   }
 }
 
+@media (min-width: 2000px) {
+  .Weather-gallery {
+    height: 80rem;
+  }
+}
+
 .Weather-hover {
   border: 4mm ridge rgba(50, 138, 220, 0.6);
 }

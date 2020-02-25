@@ -123,6 +123,9 @@ html {
   @include phone{
     height: 30rem;
   }
+  @include desktop{
+    height: 80rem;
+  }
 }
 
 .Weather-hover {
