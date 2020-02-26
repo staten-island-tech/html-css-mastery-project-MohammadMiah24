@@ -98,7 +98,7 @@ html {
       -ms-flex-align: end;
           align-items: flex-end;
   height: 100vh;
-  background-image: url(https://cdn.pixabay.com/photo/2017/03/05/00/34/panorama-2117310__480.jpg);
+  background-image: url(https://static1.squarespace.com/static/563cc987e4b05a2939898c49/t/59c6f3f4b1ffb6eac169bd73/1506210829068/ihealth-AI.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -259,10 +259,6 @@ html {
   }
 }
 
-.Weather-hover {
-  border: 4mm ridge rgba(50, 138, 220, 0.6);
-}
-
 @media (min-width: 375px) {
   .Weather-hover {
     height: 16rem;
@@ -282,8 +278,8 @@ html {
 }
 
 .Weather-gallery:hover {
-  -webkit-transform: rotate(9deg) scale(0.9);
-          transform: rotate(9deg) scale(0.9);
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .Cities {
@@ -643,8 +639,6 @@ html {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
   font-family: Voltaire;
   font-style: normal;
   font-weight: normal;
@@ -686,8 +680,6 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
   font-family: Voltaire;
   font-style: normal;
   font-weight: normal;
@@ -718,6 +710,8 @@ html {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 @media (min-width: 768px) {
@@ -748,6 +742,8 @@ html {
   text-decoration: none;
   -webkit-box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
           box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 @media (min-width: 768px) {
@@ -784,6 +780,8 @@ html {
   text-decoration: none;
   -webkit-box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
           box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 @media (min-width: 768px) {

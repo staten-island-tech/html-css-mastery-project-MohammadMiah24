@@ -14,7 +14,7 @@ html {
   align-items: flex-end;
   height: 100vh;
 
-  background-image: url(https://cdn.pixabay.com/photo/2017/03/05/00/34/panorama-2117310__480.jpg);
+  background-image: url(https://static1.squarespace.com/static/563cc987e4b05a2939898c49/t/59c6f3f4b1ffb6eac169bd73/1506210829068/ihealth-AI.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -129,8 +129,6 @@ html {
 }
 
 .Weather-hover {
-  border: 4mm ridge rgba(50, 138, 220, 0.6);
-
   @include phone {
     height: 16rem;
   }
@@ -143,7 +141,7 @@ html {
 }
 
 .Weather-gallery:hover {
-  transform: rotate(9deg) scale(0.9);
+  transform:scale(2);
 }
 
 .Cities {
@@ -385,7 +383,6 @@ html {
 .Visit-row1 {
   display: flex;
   justify-content: space-around;
-  transition: all 0.3s;
 
   font-family: Voltaire;
   font-style: normal;
@@ -409,8 +406,7 @@ html {
 
 .Visit-row2 {
   display: flex;
-  justify-content: center;
-  transition: all 0.3s;
+  justify-content: center;;
 
   font-family: Voltaire;
   font-style: normal;
@@ -439,6 +435,7 @@ html {
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
   align-items: center;
   text-align: center;
+  transition: all 0.5s;
     @include tablet{
       height: 20rem;
       font-size: 3rem;
@@ -463,6 +460,7 @@ html {
   text-decoration: none;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  transition: all 0.5s;
     @include tablet{
       height: 20rem;
       font-size: 3rem;
@@ -489,6 +487,7 @@ html {
   text-decoration: none;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  transition: all 0.5s;
     @include tablet{
       height: 20rem;
       font-size: 3rem;
