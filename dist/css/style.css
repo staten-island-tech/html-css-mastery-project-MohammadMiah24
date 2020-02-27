@@ -85,6 +85,7 @@ html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .Header-header {
@@ -94,14 +95,11 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   height: 100vh;
-  background-image: url(https://static1.squarespace.com/static/563cc987e4b05a2939898c49/t/59c6f3f4b1ffb6eac169bd73/1506210829068/ihealth-AI.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: white;
 }
 
 .Header-Text {
@@ -113,7 +111,7 @@ html {
   font-size: 72px;
   line-height: 90px;
   text-align: center;
-  color: #f1ee1a;
+  color: #000000;
   width: 300rem;
 }
 
@@ -123,20 +121,13 @@ html {
   }
 }
 
-.Header-Text:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-filter: hue-rotate(320deg);
-          filter: hue-rotate(320deg);
-}
-
 .Florida-gif {
   height: 20rem;
 }
 
 @media (min-width: 2000px) {
   .Florida-gif {
-    height: 40rem;
+    height: 70rem;
   }
 }
 
