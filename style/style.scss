@@ -9,6 +9,36 @@ html {
   scroll-behavior: smooth;
 }
 
+.Top {
+  display: flex;
+  position: fixed;
+  float: right;
+  right: 10rem;
+  bottom: 15rem;
+  width: 7rem;
+  height: 7rem;
+  background-color: #1084f0;
+  border-style: solid;
+  border-radius: 100rem;
+  z-index: 999;
+  transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+  font-size: 5rem;
+  align-items: center;
+  justify-content: center;
+
+  @include phone{
+    z-index: -2;
+  }
+  @include tablet{
+    z-index: -2;
+  }
+  @include desktop{
+    z-index: 999;
+  }
+}
+
 .Header-header {
   display: flex;
   justify-content: center;
@@ -29,12 +59,92 @@ html {
   text-align: center;
   color: #000000;
   width: 300rem;
-
-  @include desktop {
-    font-size: 15rem;
-  }
 }
 
+.Buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonW {
+  border: 0;
+  width: 40rem;
+  line-height: 6;
+  padding: 0 50px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 70rem;
+  background-color: #1084f0;
+  text-decoration: none;
+  box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
+    inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+}
+
+.buttonC {
+  border: 0;
+  width: 40rem;
+  line-height: 6;
+  padding: 0 50px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 70rem;
+  background-color: #1084f0;
+  text-decoration: none;
+  box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
+    inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+}
+
+.buttonR {
+  border: 0;
+  width: 40rem;
+  line-height: 6;
+  padding: 0 50px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 70rem;
+  background-color: #1084f0;
+  text-decoration: none;
+  box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
+    inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+}
+
+.buttonV {
+  border: 0;
+  width: 40rem;
+  line-height: 6;
+  padding: 0 50px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 70rem;
+  background-color: #1084f0;
+  text-decoration: none;
+  box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
+    inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+}
+
+.buttonW:hover {
+  transform: scale(1.1);
+}
+
+.buttonC:hover {
+  transform: scale(1.1);
+}
+
+.buttonR:hover {
+  transform: scale(1.1);
+}
+
+.buttonV:hover {
+  transform: scale(1.1);
+}
 
 .Florida-gif {
   height: 20rem;

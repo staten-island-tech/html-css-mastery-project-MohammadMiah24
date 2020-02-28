@@ -88,6 +88,51 @@ html {
   scroll-behavior: smooth;
 }
 
+.Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  float: right;
+  right: 10rem;
+  bottom: 15rem;
+  width: 7rem;
+  height: 7rem;
+  background-color: #1084f0;
+  border-style: solid;
+  border-radius: 100rem;
+  z-index: 999;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+  font-size: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 375px) {
+  .Top {
+    z-index: -2;
+  }
+}
+
+@media (min-width: 768px) {
+  .Top {
+    z-index: -2;
+  }
+}
+
+@media (min-width: 2000px) {
+  .Top {
+    z-index: 999;
+  }
+}
+
 .Header-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,10 +160,98 @@ html {
   width: 300rem;
 }
 
-@media (min-width: 2000px) {
-  .Header-Text {
-    font-size: 15rem;
-  }
+.Buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.buttonW {
+  border: 0;
+  width: 40rem;
+  line-height: 6;
+  padding: 0 50px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 70rem;
+  background-color: #1084f0;
+  text-decoration: none;
+  -webkit-box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6), inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6), inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+}
+
+.buttonC {
+  border: 0;
+  width: 40rem;
+  line-height: 6;
+  padding: 0 50px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 70rem;
+  background-color: #1084f0;
+  text-decoration: none;
+  -webkit-box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6), inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6), inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+}
+
+.buttonR {
+  border: 0;
+  width: 40rem;
+  line-height: 6;
+  padding: 0 50px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 70rem;
+  background-color: #1084f0;
+  text-decoration: none;
+  -webkit-box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6), inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6), inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+}
+
+.buttonV {
+  border: 0;
+  width: 40rem;
+  line-height: 6;
+  padding: 0 50px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 70rem;
+  background-color: #1084f0;
+  text-decoration: none;
+  -webkit-box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6), inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6), inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+}
+
+.buttonW:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.buttonC:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.buttonR:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.buttonV:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .Florida-gif {
