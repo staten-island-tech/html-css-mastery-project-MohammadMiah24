@@ -54,11 +54,20 @@ html {
   font-family: Voltaire;
   font-style: normal;
   font-weight: normal;
-  font-size: 72px;
+  font-size: 13rem;
   line-height: 90px;
   text-align: center;
   color: #000000;
   width: 300rem;
+  @include phone{
+    font-size: 5rem;
+  }
+  @include tablet{
+    font-size: 10rem;
+  }
+  @include desktop{
+    font-size: 13rem;
+  }
 }
 
 .Buttons {
@@ -80,6 +89,14 @@ html {
   text-decoration: none;
   box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
     inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+    @include phone{
+      opacity: 0;
+      width: 3rem;
+     }
+     @include desktop{
+      opacity: 1;
+      width: 40rem;
+    }
 }
 
 .buttonC {
@@ -96,6 +113,14 @@ html {
   text-decoration: none;
   box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
     inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+    @include phone{
+      opacity: 0;
+      width: 3rem;
+     }
+     @include desktop{
+      opacity: 1;
+      width: 40rem;
+    }
 }
 
 .buttonR {
@@ -112,6 +137,14 @@ html {
   text-decoration: none;
   box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
     inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+    @include phone{
+      opacity: 0;
+      width: 3rem;
+     }
+     @include desktop{
+      opacity: 1;
+      width: 40rem;
+    }
 }
 
 .buttonV {
@@ -128,6 +161,14 @@ html {
   text-decoration: none;
   box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
     inset -7px -7px 8px rgba(0, 0, 0, 0.6);
+    @include phone{
+      opacity: 0;
+      width: 3rem;
+     }
+     @include desktop{
+       opacity: 1;
+       width: 40rem;
+     }
 }
 
 .buttonW:hover {
@@ -148,6 +189,12 @@ html {
 
 .Florida-gif {
   height: 20rem;
+  @include phone{
+    height: 30rem;
+  }
+  @include tablet{
+    height: 40rem;
+  }
   @include desktop {
     height: 70rem;
   }
@@ -234,7 +281,7 @@ html {
 
 .Weather-hover {
   @include phone {
-    height: 16rem;
+    height: 25rem;
   }
   @include tablet {
     height: 20rem;
@@ -484,6 +531,7 @@ html {
   }
 }
 
+
 .Visit-row1 {
   display: flex;
   justify-content: space-around;
@@ -535,8 +583,8 @@ html {
   border-radius: 70rem;
   background-color: #f06a10;
   text-decoration: none;
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
+    inset -7px -7px 8px rgba(0, 0, 0, 0.6);
   align-items: center;
   text-align: center;
   transition: all 0.5s;
@@ -562,8 +610,8 @@ html {
   border-radius: 70rem;
   background-color: #f06a10;
   text-decoration: none;
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
+    inset -7px -7px 8px rgba(0, 0, 0, 0.6);
   transition: all 0.5s;
   @include tablet {
     height: 20rem;
@@ -589,8 +637,8 @@ html {
   border-radius: 70rem;
   background-color: #f06a10;
   text-decoration: none;
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 7px 7px 8px rgba(255, 255, 255, 0.6),
+    inset -7px -7px 8px rgba(0, 0, 0, 0.6);
   transition: all 0.5s;
   @include tablet {
     height: 20rem;
