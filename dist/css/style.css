@@ -127,6 +127,12 @@ html {
   }
 }
 
+@media (min-width: 1280px) {
+  .Top {
+    z-index: 999;
+  }
+}
+
 @media (min-width: 2000px) {
   .Top {
     z-index: 999;
@@ -172,6 +178,12 @@ html {
   }
 }
 
+@media (min-width: 1280px) {
+  .Header-Text {
+    font-size: 11rem;
+  }
+}
+
 @media (min-width: 2000px) {
   .Header-Text {
     font-size: 13rem;
@@ -186,6 +198,26 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media (min-width: 1280px) {
+  .Buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 2000px) {
+  .Buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .buttonW {
@@ -208,6 +240,13 @@ html {
   .buttonW {
     opacity: 0;
     width: 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .buttonW {
+    opacity: 1;
+    width: 20rem;
   }
 }
 
@@ -241,6 +280,13 @@ html {
   }
 }
 
+@media (min-width: 1280px) {
+  .buttonC {
+    opacity: 1;
+    width: 20rem;
+  }
+}
+
 @media (min-width: 2000px) {
   .buttonC {
     opacity: 1;
@@ -271,6 +317,13 @@ html {
   }
 }
 
+@media (min-width: 1280px) {
+  .buttonR {
+    opacity: 1;
+    width: 20rem;
+  }
+}
+
 @media (min-width: 2000px) {
   .buttonR {
     opacity: 1;
@@ -298,6 +351,13 @@ html {
   .buttonV {
     opacity: 0;
     width: 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .buttonV {
+    opacity: 1;
+    width: 20rem;
   }
 }
 
@@ -394,6 +454,12 @@ html {
   .Weather-title {
     height: 70rem;
     font-size: 15rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .Weather-title {
+    font-size: 10rem;
   }
 }
 
@@ -554,6 +620,15 @@ html {
   }
 }
 
+@media (min-width: 1280px) {
+  .Cities-gallery {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .Miami {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -568,6 +643,12 @@ html {
 }
 
 @media (min-width: 768px) {
+  .Miami {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 1280px) {
   .Miami {
     height: 30rem;
   }
@@ -598,6 +679,12 @@ html {
   }
 }
 
+@media (min-width: 1280px) {
+  .Tampa {
+    height: 30rem;
+  }
+}
+
 @media (min-width: 2000px) {
   .Tampa {
     height: 70rem;
@@ -612,6 +699,48 @@ html {
 .Tampa:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
+}
+
+.Orlando {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 10rem;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media (min-width: 375px) {
+  .Orlando {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .Orlando {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .Orlando {
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .Orlando {
+    font-size: 10rem;
+  }
+}
+
+.Orlando:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
 }
 
 .Review {
